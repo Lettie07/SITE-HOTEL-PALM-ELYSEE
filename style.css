@@ -167,9 +167,6 @@ h4 {
     background: var(--dark);
 }
 
-/* =========================================
-   SEÇÕES GERAIS
-   ========================================= */
 .espacamento-secao {
     padding: 100px 5%;
 }
@@ -201,7 +198,6 @@ h4 {
     margin-bottom: 15px;
 }
 
-/* ROOMS */
 .grade-quartos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -239,7 +235,6 @@ h4 {
     font-size: 0.9rem;
 }
 
-/* GASTRONOMIA */
 .secao-dividida,
 .secao-dividida-dois,
 .secao-dividida-tres {
@@ -267,7 +262,6 @@ h4 {
     justify-content: center;
 }
 
-/* ATRAÇÕES */
 .lista-atracoes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -287,7 +281,6 @@ h4 {
     margin-bottom: 10px;
 }
 
-/* DEPOIMENTOS */
 .container-avaliacao {
     display: flex;
     justify-content: space-between;
@@ -318,7 +311,6 @@ h4 {
     font-size: 0.9rem;
 }
 
-/* CONTATO */
 .rodape-flex {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -394,7 +386,6 @@ h4 {
     background: var(--dark);
 }
 
-/* FOOTER */
 .rodape-site {
     background-color: var(--dark-beige);
     padding-top: 60px;
@@ -442,9 +433,6 @@ h4 {
     font-weight: 600;
 }
 
-/* =========================================
-   PÁGINA DE RESERVA (NOVO)
-   ========================================= */
 .wrapper-tabela {
     background: white;
     border-radius: 15px;
@@ -508,9 +496,6 @@ h4 {
     margin-left: auto;
 }
 
-/* =========================================
-   ANIMAÇÕES E UTILITÁRIOS
-   ========================================= */
 .animacao {
     opacity: 0;
     transform: translateY(30px);
@@ -542,9 +527,6 @@ h4 {
     transform: scale(1.05);
 }
 
-/* =========================================
-   MEDIA QUERIES (RESPONSIVIDADE)
-   ========================================= */
 @media (max-width: 768px) {
     .navegacao {
         display: none;
@@ -606,16 +588,11 @@ h4 {
     }
 }
 
-/* =========================================
-   RESPONSIVIDADE DA TABELA DE RESERVA
-   ========================================= */
 @media (max-width: 768px) {
-    /* Esconde o cabeçalho original da tabela */
     .tabela-luxo thead {
         display: none;
     }
 
-    /* Transforma cada linha (tr) em um card separado */
     .tabela-luxo tr {
         display: block;
         margin-bottom: 20px;
@@ -625,7 +602,6 @@ h4 {
         background: #fff;
     }
 
-    /* Transforma cada célula (td) em uma linha de informação */
     .tabela-luxo td {
         display: flex;
         justify-content: space-between;
@@ -639,9 +615,8 @@ h4 {
         border-bottom: none;
     }
 
-    /* Adiciona o rótulo (texto) antes de cada valor usando data-label */
     .tabela-luxo td::before {
-        content: attr(data-label); /* Pega o texto do HTML */
+        content: attr(data-label);
         font-weight: 700;
         text-transform: uppercase;
         font-size: 0.75rem;

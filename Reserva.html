@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar | Palm Élysée</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body style="background: #fdfcf9;">
+    <nav class="nav-simples">
+        <a href="Inicial.html#Acomodacoes">← VOLTAR AO SITE</a>
+    </nav>
+
+    <section class="espacamento-secao">
+        <div class="container">
+            <h1 class="titulo-secao texto-centro animacao">SOLICITAR RESERVA</h1>
+
+            <div class="wrapper-tabela animacao">
+                <table class="tabela-luxo">
+                    <thead>
+                        <tr>
+                            <th>SUÍTE</th>
+                            <th>PESSOAS</th>
+                            <th>TARIFA</th>
+                            <th>QUANTIDADE</th>
+                            <th>SUBTOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="linha-quarto" data-price="5540">
+                            <td data-label="SUÍTE">
+                                <a href="Inicial.html#Acomodacoes" class="link-suite"><strong>Suíte Deluxe</strong></a>
+                            </td>
+                            <td data-label="PESSOAS"><i class="fa-solid fa-user icon-gold"></i> <i
+                                    class="fa-solid fa-user icon-gold"></i></td>
+                            <td data-label="TARIFA">R$ 5.540</td>
+                            <td data-label="QUANTIDADE">
+                                <select class="select-quarto">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </td>
+                            <td data-label="SUBTOTAL" class="total-linha">R$ 0,00</td>
+                        </tr>
+
+                        <tr class="linha-quarto" data-price="3320">
+                            <td data-label="SUÍTE">
+                                <a href="Inicial.html#Acomodacoes" class="link-suite"><strong>Suíte Luxe</strong></a>
+                            </td>
+                            <td data-label="PESSOAS"><i class="fa-solid fa-user icon-gold"></i> <i
+                                    class="fa-solid fa-user icon-gold"></i></td>
+                            <td data-label="TARIFA">R$ 3.320</td>
+                            <td data-label="QUANTIDADE">
+                                <select class="select-quarto">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </td>
+                            <td data-label="SUBTOTAL" class="total-linha">R$ 0,00</td>
+                        </tr>
+
+                        <tr class="linha-quarto" data-price="1850">
+                            <td data-label="SUÍTE">
+                                <a href="Inicial.html#Acomodacoes" class="link-suite"><strong>Suíte Classic</strong></a>
+                            </td>
+                            <td data-label="PESSOAS"><i class="fa-solid fa-user icon-gold"></i> <i
+                                    class="fa-solid fa-user icon-gold"></i></td>
+                            <td data-label="TARIFA">R$ 1.850</td>
+                            <td data-label="QUANTIDADE">
+                                <select class="select-quarto">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </td>
+                            <td data-label="SUBTOTAL" class="total-linha">R$ 0,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="caixa-resumo animacao">
+                <span class="subtitulo-dourado">TOTAL ESTIMADO</span>
+                <h2 id="total-geral">R$ 0,00</h2>
+                <button class="btn-enviar" style="width: 100%; margin-top: 20px;"
+                    onclick="alert('Reserva enviada para análise!')">CONFIRMAR RESERVA</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

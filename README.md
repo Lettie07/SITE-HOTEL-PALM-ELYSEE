@@ -48,7 +48,7 @@ Este projeto simula o site oficial de um hotel de alto padrão, destacando acomo
 
 ## 💻 Como Executar o Projeto
 
-1. Clone o repositório:
+1. Clone o repositório: https://github.com/Lettie07/SITE-HOTEL-PALM-ELYSEE.git
 2. Abra o arquivo `Inicial.html` no navegador.
 
 ---
